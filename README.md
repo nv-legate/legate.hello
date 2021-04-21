@@ -35,3 +35,4 @@ World library code in practice.
 The `install.py` and `setup.py` scripts in this directory coupled with `src/Makefile` will
 provide a good framework for setting up a build system for any Legate library.
 
+If you have questions, please contact us at legate(at)nvidia.com.
