@@ -97,7 +97,7 @@ def build_legate_hello(
         "LEGATE_DIR=%s" % install_dir,
         "DEBUG=%s" % (1 if debug else 0),
         "PREFIX=%s" % install_dir,
-    ] + (["GCC=%s" % os.environ["CXX"]] if "CXX" in os.environ else [])
+    ]
     if clean_first:
         subprocess.check_call(["make"] + make_flags + ["clean"], cwd=src_dir)
     subprocess.check_call(
