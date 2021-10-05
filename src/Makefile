@@ -27,7 +27,6 @@ GEN_CPU_SRC	= task.cc \
 # No initial GPU files for core Legate but libraries have them
 GEN_GPU_SRC	= task.cu
 # Any source headers paths and headers that need to be installed
-INSTALL_PATHS	=
 INSTALL_HEADERS =
 
 include $(LEGATE_DIR)/share/legate/legate.mk
