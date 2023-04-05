@@ -15,6 +15,10 @@ limitations under the License.
 
 -->
 
+# Deprecated
+
+The Hello World example has been moved to the [legate.core repository](https://github.com/nv-legate/legate.core/tree/HEAD/examples/hello).
+
 # Legate Hello World
 
 This repository contains a "Hello World" introduction to building a small Legate library.
